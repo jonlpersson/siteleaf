@@ -1,0 +1,27 @@
+---
+title: Experimental Site
+timezone: UTC
+collections:
+  authors:
+    title: Authors
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
+Twitter: jonlpersson
